@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="">
+		<meta name="Description" content="">
+		<title>Página pública</title>
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+		<section id="container">
+			<article id="logo">
+				<img src="http://mplsoluciones.com/1929-large_default/senal-privado.jpg" width="200" alt="logo">
+			</article>
+			<article id="texto">
+				<h1>PAGINA PRIVADA</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, hic, blanditiis, modi, nam ipsam odio inventore nihil obcaecati perspiciatis fuga voluptates voluptatibus cum laboriosam qui sint rem nulla dolor! Architecto.</p>
+			</article>
+		</section>
+	</body>
+</html>

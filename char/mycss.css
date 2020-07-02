@@ -1,0 +1,254 @@
+* {
+	font-family:arial;
+	font-size:10px;
+}
+label {
+	width:5%;
+	display:inline-block;
+	margin:auto;
+}
+header, footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  width:80%;
+  display:block;
+  padding:10px;
+  margin: 0 auto;
+}
+section {
+  background-color: #EEEEEE;
+  color: #333333;
+  width:80%;
+  display:block;
+  padding:10px;
+  margin: 0 auto;
+}
+section p {
+    
+	text-align:center;
+}
+nav
+{
+	height:50px;
+}
+nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555555;
+}
+
+nav li 
+{
+	  list-style-type: none;
+	  display: inline-block;
+}
+
+nav li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover 
+{
+  background-color: #111111;
+}
+textarea{
+  width: 40%;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#fotoUsuario
+{
+	width:40px;
+	display:block;
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+}
+#fotoUsuario img
+{
+	width:100%;
+	border-radius:1em;
+}
+#saludo
+{
+	width:100%;
+	text-align:center;
+}
+
+.personal{
+margin: auto;
+width: 10%;
+
+}
+.personal2{
+margin: auto;
+width: 70%;
+
+}
+
+
+.loginForm
+{
+	display:block;
+	width:200px;
+	margin: 0 auto;
+}
+.loginForm p {
+   width:50%;
+	text-align:left;
+}
+
+.ERROR
+{
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.centrar
+{
+	display:block;
+	margin:0 auto;
+	width:50%;
+}
+
+.calendar 
+{
+	border:1px solid black;
+	text-align: center;
+	color:#000;
+	width:100%;
+}
+
+.otromes
+{
+	color:#CCC;
+}
+
+
+.claseModestoMensaje
+{
+	border: 1px solid black;
+	padding:5px;
+	margin:5px;
+	border-radius:1em;
+}
+.claseModestoMensaje .encabezadoMensaje
+{
+	width:150px;
+	display:inline-block;
+	vertical-align:top;
+}
+.encabezadoMensaje img
+{
+	height:100px;
+	display:block;
+	border-radius:1em;
+	margin:0 auto;
+}
+.encabezadoMensaje .nombreAutor
+{
+	width:100%;
+	text-align:center;
+	display:block;
+}
+.encabezadoMensaje .fechaMensaje
+{
+	width:100%;
+	text-align:center;
+	display:block;
+}
+.claseModestoMensaje .textoMensaje
+{
+	display:inline-block;
+}
+.fechaMensaje
+{
+  width:150px;
+  display:inline-block;
+}
+.textoMensaje
+{
+  display:inline-block;
+}
+
+/*Fernando*/
+
+.cambiarform{
+  width: 30%;
+  margin: 0 auto;
+  border: 0.125em solid black;
+}
+
+.mensaje {
+  width: 80%;
+  height: 5em;
+  margin: 1% auto;
+  border: 0.125em solid black;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 10% 20% 70%;
+  padding: 0.5%;
+}
+
+.fotoUsuario{
+  height:2em;
+  line-height: 2em;
+  float: left;
+}
+.fotoUsuario img {
+  width: auto;
+  height:auto;
+}
+.cuerpo, .datos{
+  height: 5em;
+  line-height: 5em;
+}
+
+.claseMensaje
+{
+  border: 1px solid black;
+  padding:5px;
+  margin:5px;
+}
+
+.quien, .cuando{
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 0.75em;
+  color: blue;
+}
+
+.perfilUsuario{
+  width: 60%;
+  margin: 5% auto;
+  height: 10em;
+  border: 0.125em solid black;
+  padding: 0.250em;
+}
+.fotoperfil{
+  width: 10em;
+  height: 10em;
+  margin: 0 auto;
+  float:left;
+}
+.foto{
+  width: 10em;
+  height: 10em;
+}
+
+.usuario{
+  width: 10%;
+  height: 5rem;
+  line-height: 5rem;
+}

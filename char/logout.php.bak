@@ -1,0 +1,10 @@
+<?php
+session_start();
+if (isset($_SESSION["idusuario"]))
+{
+	setcookie(session_name(),"",time()-86400);
+	session_unset();
+	session_destroy();
+}
+header("location:/ruben/char/index");
+?>

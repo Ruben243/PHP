@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar {
+    background: aqua;
+     display: block;
+     text-align: center;
+   
+   
+   
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+menu{
+
+    margin:1%;
+    color: sienna;
+}
+table{
+ border: 1px solid blue;
+width: 100%;
+
+}
+td{
+margin: 2%;
+text-align: center;
+color:rebeccapurple;
+border: 1px solid black;
+
+
+}
