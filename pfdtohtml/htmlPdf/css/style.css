@@ -1,0 +1,42 @@
+.cabezera{
+    width: 100%;
+    text-align: center;
+}
+
+
+.titulo{
+    width: 100%;
+    font-size: larger;
+    margin-bottom: 1rem;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.tabla{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.tabla tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+.body{
+     background-color: whitesmoke;
+      justify-content: center;
+}
+  .formulario{
+      width: 20%;
+      display: block;
+      padding-left: 50rem;
+      padding-top: 20rem;
+     
+    
+  }
+
+  input{
+      display: block;
+      margin: 1rem;
+  }
