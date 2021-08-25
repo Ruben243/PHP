@@ -1,5 +1,5 @@
 <?php
-$db=mysqli_connect('localhost','root','Cuelebre243*','appsalon');
+$db=mysqli_connect('localhost','root','','appsalon');
 if (!$db) {
     # code...
     echo "Error en la conexion";
