@@ -1,0 +1,17 @@
+{
+    "name": "ruben-gfp/apache",
+    "authors": [
+        {
+            "name": "Ruben243",
+            "email": "rubengines243@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.4"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\":"./clases"
+        }
+    }
+}
