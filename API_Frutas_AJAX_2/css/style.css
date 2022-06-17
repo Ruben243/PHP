@@ -1,0 +1,67 @@
+:root {
+    /* Fuentes */
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+    /* Colores */
+    --primario: #1D406D;
+    --secundario: #3F67A9;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62, 5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 99%;
+    font-family: var(--fuenteHeading);
+    font-size: 1rem;
+    background-image: linear-gradient(90deg, var(--primario), var(--secundario));
+    background-attachment: fixed;
+}
+
+.main {
+    text-align: center;
+    display: block;
+    margin: 12rem auto 0;
+    min-width: 100%;
+    font-family: var(--fuenteParrafos);
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    color: cornsilk;
+    margin-left: 0.50rem;
+}
+
+.insertarDatos {
+    background-image: linear-gradient(90deg, var(--primario), var(--secundario));
+    min-width: max-content;
+}
+
+.card {
+    background-image: url('../img/frutas-cortadas-mezcladas-aisladas-en-el-fondo-blanco-detrás-encendido-como-48520523.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: black;
+    height: 24rem;
+    background-color: linear-gradient(90deg, #1D406D, #3F67A9);
+    text-align: center;
+    width: 35rem;
+    margin: 1rem auto;
+    padding-top: 3rem;
+    border-radius: 3rem;
+    font-family: var(--fuenteParrafos);
+    font-style: italic;
+}
