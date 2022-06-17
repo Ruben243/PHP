@@ -18,7 +18,8 @@ if (isset($_REQUEST['fruta']) && $_REQUEST['fruta'] != "") { //Si existe la vari
     </div>
 
 <?php
-} else {
+} elseif ($_REQUEST['fruta'] == "") {
+
 ?>
     <h1>INTRODUCE UN TERMINO DE BUSQUEDA</h1>
 <?php
